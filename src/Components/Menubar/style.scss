@@ -1,0 +1,192 @@
+.menubar{
+    width: 100%;
+    padding: 15px 0;
+    background: var(--rootlayout-color);
+    position: fixed;
+    z-index: 9999;
+    .logo{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        h3{
+            font-family: var(--secondery-font);
+            font-size: 25px;
+            font-weight: 700;
+            color: var(--text-font);
+        }
+    }
+    .icon-bar{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        // justify-content: center;
+        .icon-list{
+            text-align: center;
+            padding: 0 20px;
+            cursor: pointer;
+            position: relative;
+            &::after{
+                position: absolute;
+                content: '';
+                bottom: -19px;
+                left: 0;
+                width: 100%;
+                height: 3px;
+                transform: scaleX(0);
+                background: var(--normaltext-color);
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+                transition: all linear .4s;
+            }
+            &:hover::after{
+                transform: scaleX(1);
+            }
+            a{
+                color: var(--text-font);
+                .icon{
+                    font-size: 25px;
+                }
+            }
+            p{
+                font-family: var(--secondery-font);
+                color: var(--text-font);
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+    .profile{
+        cursor: pointer;
+        .profile-pic{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-left: 10px;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        p{
+            font-family: var(--secondery-font);
+            color: var(--text-font);
+            font-size: 14px;
+            font-weight: 500;
+        }
+        // .profile-box{
+        //     width: 300px;
+        //     padding: 20px 30px;
+        //     background: red;
+        //     position: absolute;
+        // }
+        .active{
+            width: 250px;
+            padding: 20px 30px;
+            background: var(--white-color);
+            box-shadow: 24;
+            position: absolute;
+            top: 89px;
+            right: 180px;
+            border-radius: 8px;
+            z-index: 9999;
+            -webkit-box-shadow: -7px 9px 31px -15px rgba(0,0,0,0.75);
+            -moz-box-shadow: -7px 9px 31px -15px rgba(0,0,0,0.75);
+            box-shadow: -7px 9px 31px -15px rgba(0,0,0,0.75);
+            .pro-box{
+                .pro-box2{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .pro-img{
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+                    .pro-head{
+                        h3{
+                            font-family: var(--secondery-font);
+                            color: var(--text-font);
+                            font-size: 18px;
+                            font-weight: 700;
+                        }
+                        h4{
+                            font-family: var(--secondery-font);
+                            color: var(--text-font);
+                            font-size: 16px;
+                            font-weight: 600;
+                        }
+                    }
+                }
+                .pro-btn{
+                    border-bottom: 2px solid #ddd;
+                    padding-bottom: 20px;
+                    button{
+                        padding: 10px 30px;
+                        text-align: center;
+                        width: 100%;
+                        margin-top: 20px;
+                        border-radius: 50px;
+                        border: none;
+                        outline: 0;
+                        text-transform: capitalize;
+                        font-family: var(--secondery-font);
+                        color: var(--text-font);
+                        font-size: 14px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        &:hover{
+                            background: #f9f9f9;
+                        }
+                    }
+                }
+                .Account{
+                    border-bottom: 2px solid #ddd;
+                    padding-bottom: 20px;
+                    h3{
+                        font-family: var(--secondery-font);
+                        color: var(--text-font);
+                        font-size: 18px;
+                        font-weight: 700;
+                        cursor: pointer;
+                        margin-top: 20px;
+                    }
+                    h4{
+                        font-family: var(--secondery-font);
+                        color: var(--text-font);
+                        font-size: 16px;
+                        font-weight: 600;
+                        cursor: pointer;
+                        margin-top: 10px;
+                    }
+                    .dark{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .on{
+                            
+                            .darik-icon{
+                               padding-top: 10px;
+                            }
+                        }
+                    }
+                }
+                .logout {
+                    h3{
+                        font-family: var(--secondery-font);
+                        color: var(--text-font);
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+        .inactive{
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.forget-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .pass-box{
+        width: 650px;
+        padding: 20px 30px;
+        background: #f9f9f9;
+        border-radius: 15px;
+        .box-header{
+            h3{
+                font-family: var(--primary-font);
+                color: var(--normaltext-color);
+                font-weight: 700;
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+        .input-box{
+            text-align: center;
+            .email-box{
+                width: 60% !important;
+                margin-bottom: 15px;
+            }
+            .pass-error{
+                font-family: var(--primary-font);
+                color: var(--error-color);
+                font-weight: 700;
+                font-size: 16px;
+                margin-bottom: 20px;
+            }
+            .pass-btn{
+                display: block;
+                margin-left: 42%;
+            }
+        }
+    }
+}

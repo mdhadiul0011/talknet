@@ -1,0 +1,73 @@
+.registration{
+    .reg-box{
+        height: 100vh;
+        align-items: center;
+        justify-content: center !important;
+        .reg-form-text{
+            h3{
+                font-family: var(--primary-font);
+                color: var(--normaltext-color);
+                font-size: 30px;
+                font-weight: 700;
+            }
+            p{
+                font-family: var(--primary-font);
+                color: var(--normaltext-color);
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 8px;
+                margin-bottom: 30px;
+            }
+        }
+        .reg-form{
+            .reg-input{
+                width: 80%;
+                margin-top: 10px;
+            }
+            .pass-box{
+                position: relative;
+                .eyes{
+                    position: absolute;
+                    bottom: 0;
+                    right: 20%;
+                    cursor: pointer;
+                }
+            }
+            .reg-btn{
+                width: 80%;
+                margin-top: 30px;
+                border-radius: 50px;
+                background: var(--btn-color);
+                color: var(--white-color);
+            }
+            .reg-error{
+                font-family: var(--primary-font);
+                color: var(--error-color);
+                font-size: 16px;
+                font-weight: 400;
+                margin-top: 10px;
+            }
+        }
+        .account{
+            p{
+                font-family: var(--primary-font);
+                color: var(--normaltext-color);
+                font-size: 16px;
+                font-weight: 400;
+                margin-left: 90px;
+                margin-top: 20px;
+                span{
+                    color: var(--error-color);
+                }
+            }
+        }
+    }
+    .reg-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        img{
+            width: 60%;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.frnd-page{
+    position: absolute;
+    top: 100px;
+    padding: 15px 0;
+    z-index: -1111;
+    background: var(--bg-color);
+    height: 520px;
+    width: 100vw;
+    overflow-y: scroll;
+    .frnds-box{
+        .header{
+            h4{
+                font-family: var(--primary-font);
+                font-size: 22px;
+                font-weight: 700;
+                color: var(--normaltext-color);
+                text-transform: capitalize;
+            }
+        }
+        .frnds-items{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 30px;
+            .item{
+                width: 217px;
+                height: 350px;
+                overflow: hidden;
+                border: 1px solid var(--border-color);
+                border-radius: 8px;
+                margin-right: 10px;
+                margin-top: 10px;
+                &:last-child{
+                    margin-right: 0;
+                }
+                .frnd-img{
+                    width: 100%;
+                    height: 60%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .frnd-name{
+                    padding: 10px 15px;
+                    h3{
+                        font-family: var(--primary-font);
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: var(--normaltext-color);
+                        text-transform: capitalize;
+                    }
+                }
+                .frnd-btns{
+                    padding: 0 15px;
+                    padding-bottom: 20px;
+                    box-sizing: border-box;
+                    button{
+                        font-family: var(--primary-font);
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: var(--white-color);
+                        background: var(--btn-color);
+                        text-transform: capitalize;
+                        padding: 6px 0;
+                        width: 100%;
+                        text-align: center;
+                        border: none;
+                        border-radius: 8px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}

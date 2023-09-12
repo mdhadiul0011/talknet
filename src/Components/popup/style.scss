@@ -1,0 +1,87 @@
+.uploade-page{
+    width: 400px;
+    height: 300px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    background: #ddd;
+    border-radius: 8px;
+    position: absolute;
+    top: 567px;
+    right: 416px;
+    .upload{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: var(--bg-color);
+        .upload-icons{
+            .icons{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                background: #ddd;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                svg{
+                    fill: var(--normaltext-color);
+                }
+            }
+        }
+    }
+}
+
+.profile-pic-upload{
+    width: 500px !important;
+    height: 90vh;
+    background: #ddd;
+    position: absolute;
+    top: 423px;
+    left: 445px;
+    border-radius: 8px;
+    .header-custom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        .header-tag{
+            margin-bottom: 30px;
+            margin-top: 20px;
+        }
+        .cross-icon{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: var(--bg-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    .preview-img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .upload-btn{
+        padding: 0 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .btn{
+            text-align: center;
+            margin-top: 20px;
+            padding: 15px 30px;
+        }
+    }
+
+}

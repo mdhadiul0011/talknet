@@ -1,0 +1,63 @@
+.edit-headline {
+    position: relative;
+}
+
+.edit-headline::after {
+    position: absolute;
+    content: '';
+    top: 42px;
+    left: -32px;
+    border-bottom: 1px solid var(--normaltext-color);
+    width: 864px;
+}
+
+.edit-headline h3{
+    font-family: var(--primary-font);
+    color: var(--normaltext-color);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bio-input{
+    margin-top: 30px;
+}
+
+.bio-field{
+    width: 350px !important;
+    margin-right: 100px !important;
+    margin-top: 15px !important;
+}
+
+.bio-field:nth-child(2){
+    margin-right: 0 !important;
+}
+
+.bio-field:nth-child(4){
+    margin-right: 0 !important;
+}
+
+.bio-field:nth-child(6){
+    margin-right: 0 !important;
+}
+
+.bio-field:last-child{
+    margin-right: 0 !important;
+}
+
+.bio-btn {
+    margin-top: 30px !important;
+}
+
+.bio-btn button {
+    padding: 14px 30px;
+    border-radius: 8px;
+    background: var(--btn-color);
+    border: none;
+    color: var(--white-color);
+    font-family: var(--primary-font);
+    font-size: 18px;
+    text-transform: capitalize;
+    cursor: pointer;
+}

@@ -1,0 +1,148 @@
+.cover-pro-edit{
+    overflow-y: scroll;
+}
+
+.cover-headline{
+    font-family: var(--primary-font);
+    color: var(--normaltext-color);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.cover-headline::after {
+    position: absolute;
+    content: '';
+    top: 43px;
+    left: -32px;
+    width: 564px;
+    height: 1px;
+    background: var(--normaltext-color);
+}
+
+.cvr-pic-edit {
+    font-family: var(--primary-font);
+    color: var(--normaltext-color);
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit-btn button{
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+    background: var(--btn-color);
+    font-family: var(--primary-font);
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    cursor: pointer;
+
+}
+
+.cover-headline2{
+    font-family: var(--primary-font);
+    color: var(--normaltext-color);
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inactiveCover{
+    display: none;
+}
+
+.inactivepopup{
+    display: none;
+}
+
+.cover-photo{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.cover-input img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.photo-center{
+    width: 40%;
+    margin: 20px 150px;
+}
+
+.propic-edit {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.propic-edit img{
+    width: 100%;
+    height: 100%;
+}
+
+.inputs{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.inputs ul li p{
+    font-family: var(--primary-font);
+    color: var(--normaltext-color);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.edit-inputs {
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.edit-inputs::placeholder{
+    font-family: var(--primary-font);
+    color: rgba(17, 23, 93, 0.7);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.cover-btn {
+    width: 100%;
+    text-align: right;
+}
+
+.cover-btn button{
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    background: var(--btn-color);
+    color: var(--white-color);
+    text-transform: capitalize;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
